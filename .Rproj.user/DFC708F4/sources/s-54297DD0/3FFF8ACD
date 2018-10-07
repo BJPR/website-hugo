@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1538870427854.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1102254853",
+    "id" : "3FFF8ACD",
+    "lastKnownWriteTime" : 1538870423,
+    "last_content_update" : 1538870423,
+    "path" : "~/Documents/GitHub/website-hugo/config.toml",
+    "project_path" : "config.toml",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "toml"
+}
