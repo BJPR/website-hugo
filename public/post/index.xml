@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Silva Portentosa</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on Silva Portentosa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lutosławski, “Principles of Stylometry&#34;</title>
+      <link>/2018/10/06/principles-of-stylometry/</link>
+      <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/10/06/principles-of-stylometry/</guid>
+      <description>Wincenty Lutosławski d. 1954
+“Principles of Stylometry Applied to the Chronology of Plato’s Works”
+[« Principes de stylométrie appliqués à la chronologie des œuvres de Platon »]
+Revue des Études Grecques 11.41 (1898): 61–81.
+[p. 61] In general, we do not need to fall back on the study of an author’s style to know the order in which they write their works. Most authors took care to indicate themselves the relation of each piece of writing to their previous writings, which allows us to take stock of their progress and the path they followed in arriving at their ultimate conclusions.</description>
+    </item>
+    
+  </channel>
+</rss>
