@@ -15,6 +15,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [[menu.main]]
     name = "Digital Bédier"
     url = "https://sites.google.com/view/digitalbedier"
+   
 [[menu.main]]
     name = "About"
     url = "/about/"
