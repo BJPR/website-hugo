@@ -11,10 +11,10 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [[menu.main]]
     name = "French Studies"
-    url = "http://brianjreilly.com"
+    url = "https://sites.google.com/view/frenchstudies"
 [[menu.main]]
     name = "Digital Bédier"
-    url = "http://brianjreilly.com"
+    url = "https://sites.google.com/view/digitalbedier"
 [[menu.main]]
     name = "About"
     url = "/about/"
