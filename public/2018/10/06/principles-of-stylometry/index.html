@@ -19,6 +19,11 @@
 
 
 
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
 <link rel="stylesheet" href="/css/fonts.css" media="all">
 <link rel="stylesheet" href="/css/main.css" media="all">
 
@@ -85,6 +90,13 @@
 <li>130 stylemes equivalent to 233 units in <em>Theaetetus</em>, 142a–210d (33 pp., ed. Didot ; 68 pp., ed. Teubner).</li>
 </ul>
 <p>We see that three samples of texts, of which two are taken from the same work and a third from a work whose style is closely clustered with it (<em>Phaedrus</em> and <em>Theaetetus</em> have been recognized at the closest dialogues to <em>Republic</em> by all those who have studied Plato’s style), show almost the same resemblance with the last group of six dialogues, which proves that 500 stylemes are sufficient for conclusions about chronology, [p. 68] which amounts to samples of 34–53 pages in the Didot edition. At the same time, this example shows that the measure of text we use to measure the length of a sample is not unimportant. The last three samples, which are of equal length in the Didot edition, are 68–87 pages in the Teubner edition and 68–78 pages in the Estienne edition. If we compare these editions by counting the number of words on each page for different works, we shall find out that the pages of the Didot edition are much more equal between each other than are those in the other editions. This observation is very important, for all of our predecessors have made use of the pages of the Teubner or Estienne editions as the measure of text without noticing that these pages contain more or fewer words in different dialogues. In certain cases, this negligence prevented some interesting conclusions. Thus Lina,<a href="#fn11" class="footnoteRef" id="fnref11"><sup>11</sup></a> having studied the use of prepositions in all of Plato’s works, found no difference in frequency between dialogues so different in every respect as <em>Laches</em>, <em>Protagoras</em>, and <em>Statesman</em>, which, according to Lina, have the same frequency of 11 prepositions per page (Teubner edition). In reality, if the text is measured by pages in the Didot edition, 17 prepositions are found per page in <em>Protagoras</em>, 19.5 prepositions per page in <em>Laches</em>, and 21 prepositions per page in <em>Statesman</em>, a considerable difference that Lina did not notice and that confirms what we know moreover about the style of these dialogues.</p>
+<pre class="r"><code>mean.v &lt;- c(-1,-.5,0,.5,1)
+colors &lt;- c(&quot;red&quot;, &quot;blue&quot;, &quot;darkgreen&quot;, &quot;gold&quot;, &quot;purple&quot;)
+plot(dnorm(seq(-4, 4, length=100), mean = mean.v[5]), lwd=2, col=colors[5], type=&quot;l&quot;, xaxt=&#39;n&#39;, yaxt=&#39;n&#39;,ann=FALSE)
+for (i in 1:4){
+  lines(dnorm(seq(-4, 4, length=100), mean = mean.v[i]), lwd=2, col=colors[i], type=&quot;l&quot;)
+}</code></pre>
+<p><img src="/post/2018-10-06-principles-of-stylometry_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
 <div class="footnotes">
 <hr />
 <ol>
@@ -124,6 +136,18 @@
 
     </div>
     
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
 
     
 
