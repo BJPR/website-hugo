@@ -39,40 +39,38 @@ tags: []
 </ul>
 <p>We see that three samples of texts, of which two are taken from the same work and a third from a work whose style is closely clustered with it (<em>Phaedrus</em> and <em>Theaetetus</em> have been recognized at the closest dialogues to <em>Republic</em> by all those who have studied Plato’s style), show almost the same resemblance with the last group of six dialogues, which proves that 500 stylemes are sufficient for conclusions about chronology, [p. 68] which amounts to samples of 34–53 pages in the Didot edition. At the same time, this example shows that the measure of text we use to measure the length of a sample is not unimportant. The last three samples, which are of equal length in the Didot edition, are 68–87 pages in the Teubner edition and 68–78 pages in the Estienne edition. If we compare these editions by counting the number of words on each page for different works, we shall find out that the pages of the Didot edition are much more equal between each other than are those in the other editions. This observation is very important, for all of our predecessors have made use of the pages of the Teubner or Estienne editions as the measure of text without noticing that these pages contain more or fewer words in different dialogues. In certain cases, this negligence prevented some interesting conclusions. Thus Lina,<a href="#fn11" class="footnoteRef" id="fnref11"><sup>11</sup></a> having studied the use of prepositions in all of Plato’s works, found no difference in frequency between dialogues so different in every respect as <em>Laches</em>, <em>Protagoras</em>, and <em>Statesman</em>, which, according to Lina, have the same frequency of 11 prepositions per page (Teubner edition). In reality, if the text is measured by pages in the Didot edition, 17 prepositions are found per page in <em>Protagoras</em>, 19.5 prepositions per page in <em>Laches</em>, and 21 prepositions per page in <em>Statesman</em>, a considerable difference that Lina did not notice and that confirms what we know moreover about the style of these dialogues. Taking care to only compare equal samples, we easily find the limits to the validity of our stylometric law for each number of compared stylemes. If we observe at 500 stylemes that texts belonging to the same period show an almost equal resemblance with a given standard, we can also easily convince ourselves that all cases where the relative order of two dialogues [p. 69] or of two parts of just one dialogue is known, the one that was written later has a greater resemblance to the last group. The following examples demonstrate this clearly:</p>
 <div class="figure">
-<img src="/files/Lutoslawski.Principes.74.png" alt="Table Page 74" />
-<p class="caption">Table Page 74</p>
+<img src="/files/Lutoslawski.Principes.74.png" title="Table of Resemblances" alt="Table of Resemblances of the Principle Dialogues with the Group of Laws Based on a Comparison of 500 Stylemes" />
+<p class="caption">Table of Resemblances of the Principle Dialogues with the Group of <em>Laws</em> Based on a Comparison of 500 Stylemes</p>
 </div>
 <p>[TO BE CONTINUED …]</p>
-<pre class="r"><code>table.p74.df &lt;- read.csv(file = &quot;https://raw.githubusercontent.com/BJPR/website-hugo/master/public/files/Lutoslawski.Principes.74.csv&quot;)
-
-table.p74.df</code></pre>
-<pre><code>##      Dialogue_Name Didot_Pages Stelemes_Accidental Stylemes_Repeated
-## 1          Apology          20                   9                 2
-## 2        Euthyphro          12                  11                 2
-## 3            Crito          10                  13                NA
-## 4        Charmides          18                  13                 5
-## 5           Laches          18                  19                 4
-## 6       Protagoras          40                  21                 9
-## 7             Meno          23                  20                16
-## 8       Euthydemus          28                  22                 5
-## 9          Gorgias          62                  31                20
-## 10        Cratylus          42                  33                16
-## 11       Symposium          39                  42                16
-## 12          Phaedo          49                  43                26
-## 13      Republic 1          20                  28                 6
-## 14 Republic 2\xd04          60                  47                37
-## 15 Republic 5\xd07          60                  56                29
-## 16 Republic 8\xd09          34                  47                22
-## 17     Republic 10          19                  35                14
-## 18        Phaedrus          39                  54                36
-## 19      Theaetetus          53                  58                41
-## 20      Parmenides          31                  56                42
-## 21         Sophist          40                 139                36
-## 22       Statesman          43                 163                43
-## 23        Philebus          43                 100                38
-## 24         Timaeus          53                 123                58
-## 25         Critias          11                  51                 8
-## 26            Laws         236                 175               176
+<pre class="r"><code>(table.p74.df &lt;- read.csv(file = &quot;https://raw.githubusercontent.com/BJPR/website-hugo/master/public/files/Lutoslawski.Principes.74.csv&quot;))</code></pre>
+<pre><code>##    Dialogue_Name Didot_Pages Stelemes_Accidental Stylemes_Repeated
+## 1        Apology          20                   9                 2
+## 2      Euthyphro          12                  11                 2
+## 3          Crito          10                  13                NA
+## 4      Charmides          18                  13                 5
+## 5         Laches          18                  19                 4
+## 6     Protagoras          40                  21                 9
+## 7           Meno          23                  20                16
+## 8     Euthydemus          28                  22                 5
+## 9        Gorgias          62                  31                20
+## 10      Cratylus          42                  33                16
+## 11     Symposium          39                  42                16
+## 12        Phaedo          49                  43                26
+## 13    Republic 1          20                  28                 6
+## 14 Republic 2to4          60                  47                37
+## 15 Republic 5to7          60                  56                29
+## 16 Republic 8to9          34                  47                22
+## 17   Republic 10          19                  35                14
+## 18      Phaedrus          39                  54                36
+## 19    Theaetetus          53                  58                41
+## 20    Parmenides          31                  56                42
+## 21       Sophist          40                 139                36
+## 22     Statesman          43                 163                43
+## 23      Philebus          43                 100                38
+## 24       Timaeus          53                 123                58
+## 25       Critias          11                  51                 8
+## 26          Laws         236                 175               176
 ##    Stylemes_Important Stylemes_Laws Units Relative_Resemblance
 ## 1                   1            NA    16                 0.02
 ## 2                   1            NA    18                 0.03
